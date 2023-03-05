@@ -1,0 +1,1 @@
+Insert into doctor values('35','Dr Bhragulata Shukla','N','F','MBBS,MS,DNB','10.11.1993','Cardiologist','Permanent')

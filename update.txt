@@ -1,0 +1,1 @@
+UPDATE doctor SET fname = 'Archika' WHERE doctor_id = '33';

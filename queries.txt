@@ -1,0 +1,9 @@
+SELECT *FROM ward;
+SELECT *FROM doctor;
+SELECT *FROM system_administrator
+SELECT *FROM receptionist
+SELECT *FROM medicalstore
+SELECT *FROM laboratory
+SELECT *FROM inpatient
+SELECT *FROM outpatient
+SELECT *FROM appointment_schedule

@@ -27,7 +27,6 @@ Run the system using the command python main.py
   
 ### Usage:
 The system provides four main functions to interact with the database:
-'''
   
 **create_data_table(queries: List[str])**: Creates tables in the database based on the provided SQL queries.
   
@@ -39,14 +38,14 @@ The system provides four main functions to interact with the database:
   
   
 **delete_data_table(queries: List[str])**: Deletes data from the tables in the database based on the provided SQL queries.
-'''
   
 To use these functions, simply call them with a list of SQL queries as arguments. For example, to create a new table in the database:
-  
-`from helper import DatabaseHelper
+```pyhton 
+from helper import DatabaseHelper
 db = DatabaseHelper()
 query = "CREATE TABLE new_table (id SERIAL PRIMARY KEY, name VARCHAR(50));"
-db.create_data_table([query])`
+db.create_data_table([query])
+```
 
 Similarly, you can use the other functions to interact with the database as per your requirements.
   

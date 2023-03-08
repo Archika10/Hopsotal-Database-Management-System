@@ -52,8 +52,8 @@ db = DatabaseHelper()
 query = "CREATE TABLE new_table (id SERIAL PRIMARY KEY, name VARCHAR(50));"
   
   
-db.create_data_table([query])
-`
+db.create_data_table([query])`
+
   
 Similarly, you can use the other functions to interact with the database as per your requirements.
   

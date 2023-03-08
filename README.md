@@ -32,16 +32,11 @@ delete_data_table(queries: List[str]): Deletes data from the tables in the datab
   
   
 To use these functions, simply call them with a list of SQL queries as arguments. For example, to create a new table in the database:
+  
 '''
 from helper import DatabaseHelper
-
-# Initialize the database helper object
 db = DatabaseHelper()
-
-# Define the SQL query to create the new table
 query = "CREATE TABLE new_table (id SERIAL PRIMARY KEY, name VARCHAR(50));"
-
-# Call the create_data_table function with the query
 db.create_data_table([query])
 '''  
   

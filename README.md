@@ -4,7 +4,6 @@ This is a simple Hospital Database Management System created using Python and Po
 ### Prerequisites:
 Python 3.x
 
-
 psycopg2 library for Python
 
 

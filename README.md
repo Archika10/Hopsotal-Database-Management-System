@@ -44,8 +44,14 @@ The system provides four main functions to interact with the database:
 To use these functions, simply call them with a list of SQL queries as arguments. For example, to create a new table in the database:
   
 `from helper import DatabaseHelper
+  
+  
 db = DatabaseHelper()
+  
+  
 query = "CREATE TABLE new_table (id SERIAL PRIMARY KEY, name VARCHAR(50));"
+  
+  
 db.create_data_table([query])
 `
   
